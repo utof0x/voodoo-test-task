@@ -1,13 +1,10 @@
-import { Space_Grotesk } from "next/font/google";
-
 import "./globals.css";
+import { spaceGrotesk } from "utils/fonts";
 
 export const metadata = {
   title: "Voodoo Ecom test task",
   description: "Voodoo Ecom test task",
 };
-
-const spaceGrotesk = Space_Grotesk({ subsets: ["latin"] });
 
 const RootLayout = ({ children }: { children: React.ReactNode }) => {
   return (

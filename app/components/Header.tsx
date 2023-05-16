@@ -4,7 +4,7 @@ import { logo, logoMobile } from "icons";
 
 export const Header = () => {
   return (
-    <div className="flex py-6 tablet:py-12 pl-6 tablet:pl-62 pr-6 tablet:pr-[62px] bg-lightSand  border-b-[1px] border-solid border-black">
+    <header className="flex py-6 tablet:py-12 pl-6 tablet:pl-62 pr-6 tablet:pr-[62px] bg-lightSand border-b-[1px] border-solid border-black">
       <Image className="hidden tablet:block" src={logo} alt="Logo" />
       <Image
         className="tablet:hidden"
@@ -27,6 +27,6 @@ export const Header = () => {
           Sign-up
         </a>
       </div>
-    </div>
+    </header>
   );
 };
