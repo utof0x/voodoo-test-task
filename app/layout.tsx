@@ -1,3 +1,5 @@
+import { Space_Grotesk } from "next/font/google";
+
 import "./globals.css";
 
 export const metadata = {
@@ -5,10 +7,12 @@ export const metadata = {
   description: "Voodoo Ecom test task",
 };
 
+const spaceGrotesk = Space_Grotesk({ subsets: ["latin"] });
+
 const RootLayout = ({ children }: { children: React.ReactNode }) => {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body className={spaceGrotesk.className}>{children}</body>
     </html>
   );
 };

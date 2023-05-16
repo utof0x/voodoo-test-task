@@ -21,7 +21,8 @@
     ],
     "paths": {
       "@/*": ["./*"],
-      "components": ["./app/components"]
+      "components": ["./app/components"],
+      "icons": ["./assets/icons"]
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
