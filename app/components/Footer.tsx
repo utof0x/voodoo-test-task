@@ -5,7 +5,7 @@ import { spaceMono } from "utils/fonts";
 
 export const Footer = () => (
   <footer
-    className={`flex flex-col tablet:flex-row justify-between px-12 laptop:px-[120px] py-12 laptop:py-[84px] border-t-[1px] border-solid border-black ${spaceMono.className}`}
+    className={`flex flex-col tablet:flex-row justify-between mt-auto px-12 laptop:px-[120px] py-12 laptop:py-[84px] border-t-[1px] border-solid border-black ${spaceMono.className}`}
   >
     <div className="hidden laptop:flex items-center justify-center laptop:max-w-[300px] laptop:w-[100%]">
       <Image src={sign} alt="VooDoo sign" width={82} height={82} />

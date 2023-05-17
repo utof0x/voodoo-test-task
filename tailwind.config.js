@@ -27,6 +27,12 @@ module.exports = {
       'tablet': '640px',
       'laptop': '1024px',
       'desktop': '1280px',
+    },
+    fontSize: {
+      xs: ['12px', '0.9375em'],
+      sm: ['14px', '1.125rem'],
+      base: ['16px', '1.25rem'],
+      xl: ['20px', '1.75rem']
     }
   },
   plugins: [],
